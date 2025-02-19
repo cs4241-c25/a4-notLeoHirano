@@ -96,7 +96,7 @@ export default function Home() {
   return (
     <div className="body nes-container with-title is-dark">
       <button className="nes-btn" id="toggledata" onClick={() => setIsTableVisible(!isTableVisible)}>
-        📋 Toggle Data Table
+        Toggle Data Table
       </button>
 
       <button id="gallery"className="nes-btn is-primary" onClick={handleGoToGallery}>Gallery</button>

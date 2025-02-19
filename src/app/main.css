@@ -55,6 +55,18 @@ td {
   cursor: pointer;
 }
 
+#toggleData {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+}
+
+#gallery {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+
 th:nth-child(5) {
   max-width: 10%;
   overflow: hidden;
